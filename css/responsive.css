@@ -110,6 +110,12 @@
     }
 }
 
+.img-fluid {
+    max-width: 70% !important;
+    max-height: 70% !important;
+}
+
+
 @media (min-width: 320px) and (max-width: 767px) {
     .header_area {
         padding: 0;
@@ -118,7 +124,7 @@
         font-size: 48px;
     }
     .header_area.sticky {
-        height: 50px;
+        height: 20%;
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
